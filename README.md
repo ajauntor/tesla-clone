@@ -1,1 +1,4 @@
-# Get Started with Tesla Clone
+# Tesla Clone
+
+Technology Used:
+
