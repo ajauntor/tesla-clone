@@ -5,7 +5,7 @@ import "./Section.css"
 const Section = () => {
     return (
         <Wrap>
-            
+            <h1>hi</h1>
         </Wrap>
     );
 };
@@ -14,6 +14,9 @@ export default Section;
 
 const Wrap = styled.div`
     width: 100vw;
-    hight: 100vh;
-    background: orange;
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url('images/model-s.jpg');
 `
