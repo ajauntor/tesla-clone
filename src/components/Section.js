@@ -62,7 +62,11 @@ font-size: 12px;
 cursor: pointer;
 margin-left: 10px;
 `
-const RightButton = styled(LeftButton)``
+const RightButton = styled(LeftButton)`
+    background: white;
+    color: black;
+    opacity: 0.60;
+`
 
 const DownArrow = styled.img`
 margin-top: 20px;
