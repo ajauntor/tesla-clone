@@ -1,0 +1,11 @@
+*{
+    box-sizing: border-box;
+    font-family: "san-serif";
+    color: #393c41;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100%;
+}
