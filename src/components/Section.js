@@ -5,7 +5,10 @@ import "./Section.css"
 const Section = () => {
     return (
         <Wrap>
-            <h1>hi</h1>
+            <ItemText>
+                <h1>Model S</h1>
+                <p>Order Online for Touchless Delivery</p>
+            </ItemText>
         </Wrap>
     );
 };
@@ -19,4 +22,9 @@ const Wrap = styled.div`
     background-repeat: no-repeat;
     background-size: cover;
     background-image: url('images/model-s.jpg');
+`
+
+const ItemText = styled.div `
+    padding-top: 15vh;
+    text-align: center;
 `
