@@ -36,6 +36,17 @@ const Home = () => {
                      backgroundImg="solar-panel.jpg"
                      leftBtnText ="Order now"
                      rightBtnText ="learn more"/>
+                 <Section 
+                     title="Solar for New Roofs"
+                     discription="Solar Roof Costs Less Than a New Roof Plus Solar Panals"
+                     backgroundImg="solar-roof.jpg"
+                     leftBtnText ="Order now"
+                     rightBtnText ="learn more"/>
+                 <Section 
+                     title="Accessories"
+                     discription=""
+                     backgroundImg="accessories.jpg"
+                     leftBtnText ="Shop now" />
         </Container>
     );
 };
