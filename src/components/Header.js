@@ -18,8 +18,18 @@ const Header = () => {
             <RightMenu>
                     <a href="#"> Shop </a>
                     <a href="#"> Tesla Account</a>
+                    <CustomMenu />
             </RightMenu>
-            <CustomMenu />
+            <BurgerNav>
+                <li><a href="#">Existing Inventory</a></li>
+                <li><a href="#">Existing Inventory</a></li>
+                <li><a href="#">Existing Inventory</a></li>
+                <li><a href="#">Existing Inventory</a></li>
+                <li><a href="#">Existing Inventory</a></li>
+                <li><a href="#">Existing Inventory</a></li>
+                <li><a href="#">Existing Inventory</a></li>
+                <li><a href="#">Existing Inventory</a></li>
+            </BurgerNav>
         </Container>
     );
 };
@@ -31,6 +41,7 @@ const Container = styled.div`
     position: fixed;
     display: flex;
     align-items: center;
+    justify-content: space-between;
     padding: 0 20px;
     top: 0;
     left: 0;
@@ -48,8 +59,14 @@ const Menu = styled.div`
         padding: 0 10px;
         flex-wrap: nowrap;
     }
+
+    @media (max-width: 768px) {
+        display: none;
+    }
 `
 const RightMenu = styled.div`
+    display: flex;
+    align-items: center;
     a {
         font-weight: 600;
         text-transform: uppercase;
@@ -58,5 +75,6 @@ const RightMenu = styled.div`
     }
 `
 const CustomMenu = styled(MenuIcon)`
-    
+    cursor: pointer;
 `
+const BurgerNav = styled.div``
