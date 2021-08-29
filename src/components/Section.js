@@ -4,7 +4,7 @@ import "./Section.css"
 
 const Section = ( props ) => {
     return (
-        <Wrap>
+        <Wrap bgImage={props.backgroundImg}>
             <ItemText>
                 <h1>{ props.title }</h1>
                 <p>{ props.discription }</p>
@@ -37,6 +37,7 @@ const Wrap = styled.div`
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
+    background-image: ${props => `url("/images/${props.bgImage}")`}
 `
 
 const ItemText = styled.div `

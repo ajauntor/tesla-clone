@@ -25,9 +25,9 @@ const Home = () => {
                     leftBtnText ="Custom order"
                     rightBtnText ="Existing inventory"/>
                <Section 
-                    title="Model S"
+                    title="Model X"
                     discription="Order Online for Touchless Delivery"
-                    backgroundImg="model-s.jpg"
+                    backgroundImg="model-x.jpg"
                     leftBtnText ="Custom order"
                     rightBtnText ="Existing inventory"/>
         </Container>
