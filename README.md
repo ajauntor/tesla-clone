@@ -1,8 +1,8 @@
-# Tesla Clone
+# Tesla Clone with React.js
 
-Technology Used:
-## React JS
-## Material UI
+.Technology Used:
+.React JS
+Material UI
 Styled Components
-Transition & Transform
+Transition and Transform
 Reveal
