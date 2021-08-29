@@ -2,20 +2,20 @@ import React from 'react';
 import styled from 'styled-components';
 import "./Section.css"
 
-const Section = () => {
+const Section = ( props ) => {
     return (
         <Wrap>
             <ItemText>
-                <h1>Model S</h1>
-                <p>Order Online for Touchless Delivery</p>
+                <h1>{ props.title }</h1>
+                <p>{ props.discription }</p>
             </ItemText>
             <Buttons>
                 <ButtonGroup>
                     <LeftButton>
-                            Custom Order
+                            {props.leftBtnText}
                     </LeftButton>
                     <RightButton>
-                            Exisiting Inventory
+                            {props.rightBtnText}
                     </RightButton>
                 </ButtonGroup>
                 <DownArrow src="/images/down-arrow.svg" />
