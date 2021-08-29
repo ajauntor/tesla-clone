@@ -1,12 +1,19 @@
 import React from 'react';
 import './Header.css'
+import styled from 'styled-components';
 
 const Header = () => {
     return (
-        <div className="header">
-            <h2>Header</h2>
-        </div>
+        <Container>
+            <a>
+                <img src="/images/logo.svg" alt="" />
+            </a>
+        </Container>
     );
 };
 
 export default Header;
+
+const Container = styled.div`
+
+`
