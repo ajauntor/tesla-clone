@@ -1,6 +1,6 @@
 # Tesla Clone with React.js
 
-- Technology Used:
+## Technology Used:
 - React JS
 - Material UI
 - Styled Components
